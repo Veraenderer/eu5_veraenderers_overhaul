@@ -1,0 +1,15 @@
+ {
+ 	"name" : "Veraenderers Combat Overhaul",
+ 	"id" : "veraenderers_combat_overhaul",
+ 	"version" : "1.0",
+ 	"supported_game_version" : "1.0.10",
+	"picture": "thumbnail.png",
+ 	"short_description" : "My attempt to balance levies, professionals and co over the ages. Step one make levies more comparable in size to professionals.",
+ 	"tags" : [
+ 		"Balance"
+ 	],				
+ 	"relationships" : [
+ 	],
+ 	"game_custom_data" : {
+ 	}
+ }
