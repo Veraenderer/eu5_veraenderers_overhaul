@@ -28,7 +28,7 @@
 	maintenance_demand =  infantry_maintenance
 	construction_demand = infantry_construction
 	
-	minimum_levy_size = 1
+	minimum_levy_size = 0
 	
 	startup_amount = 20
 	ai_weight = 0.5

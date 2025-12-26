@@ -9,21 +9,19 @@
 a_age_1_traditions_infantry = {
 	category = army_infantry
 	buildable = no
-	max_strength = 0.1
+	max_strength = 0.2
 	combat_power = 1
 
 
 	maintenance_demand =  early_infantry_maintenance
 	construction_demand = early_infantry_construction
 	age = "age_1_traditions"
-
-	minimum_levy_size = 0.5
 }
 
 a_age_1_traditions_cavalry = {
 	category = army_cavalry
 	buildable = no
-	max_strength = 0.05
+	max_strength = 0.1
 	combat_power = 4
 
 	impact = { 
@@ -37,15 +35,13 @@ a_age_1_traditions_cavalry = {
 		mountains = -0.10
 	}
 	age = "age_1_traditions"
-
-	minimum_levy_size = 0.25
 }
 
 
 a_age_1_traditions_auxiliary = {
 	category = army_auxiliary
 	buildable = no
-	max_strength = 0.05
+	max_strength = 0.1
 	combat_power = 0.25
 
 	age = "age_1_traditions"
@@ -54,7 +50,7 @@ a_age_1_traditions_auxiliary = {
 a_age_1_traditions_artillery = {
 	category = army_artillery
 	buildable = no
-	max_strength = 0.01
+	max_strength = 0.02
 	combat_power = 2
 	
 	bombard_efficiency = 0.1
@@ -69,7 +65,7 @@ a_age_1_traditions_artillery = {
 a_age_2_renaissance_infantry = {
 	category = army_infantry
 	buildable = no
-	max_strength = 0.2
+	max_strength = 0.4
 	combat_power = 1
 
 	
@@ -77,14 +73,12 @@ a_age_2_renaissance_infantry = {
 	maintenance_demand =  early_infantry_maintenance
 	construction_demand = early_infantry_construction
 	age = "age_2_renaissance"
-
-	minimum_levy_size = 0.6
 }
 
 a_age_2_renaissance_cavalry = {
 	category = army_cavalry
 	buildable = no
-	max_strength = 0.1
+	max_strength = 0.2
 	combat_power = 4
 
 	impact = { 
@@ -98,14 +92,12 @@ a_age_2_renaissance_cavalry = {
 		mountains = -0.10
 	}
 	age = "age_2_renaissance"
-
-	minimum_levy_size = 0.3
 }
 
 a_age_2_renaissance_auxiliary = {
 	category = army_auxiliary
 	buildable = no
-	max_strength = 0.1
+	max_strength = 0.2
 	combat_power = 0.25
 
 	age = "age_2_renaissance"
@@ -127,18 +119,16 @@ a_age_2_renaissance_artillery = {
 a_age_3_discovery_infantry = {
 	category = army_infantry
 	buildable = no
-	max_strength = 0.4
+	max_strength = 0.6
 	combat_power = 1
 
 	age = "age_3_discovery"
-
-	minimum_levy_size = 0.7
 }
 
 a_age_3_discovery_cavalry = {
 	category = army_cavalry
 	buildable = no
-	max_strength = 0.2
+	max_strength = 0.3
 	combat_power = 4
 
 	impact = { 
@@ -152,14 +142,12 @@ a_age_3_discovery_cavalry = {
 		mountains = -0.10
 	}
 	age = "age_3_discovery"
-
-	minimum_levy_size = 0.35
 }
 
 a_age_3_discovery_auxiliary = {
 	category = army_auxiliary
 	buildable = no
-	max_strength = 0.2
+	max_strength = 0.3
 	combat_power = 0.25
 
 	age = "age_3_discovery"
@@ -182,18 +170,16 @@ a_age_3_discovery_artillery = {
 a_age_4_reformation_infantry = {
 	category = army_infantry
 	buildable = no
-	max_strength = 0.8
+	max_strength = 1
 	combat_power = 1.5
 
 	age = "age_4_reformation"
-
-	minimum_levy_size = 0.8
 }
 
 a_age_4_reformation_cavalry = {
 	category = army_cavalry
 	buildable = no
-	max_strength = 0.3
+	max_strength = 0.4
 	combat_power = 4
 
 	impact = { 
@@ -207,14 +193,12 @@ a_age_4_reformation_cavalry = {
 		mountains = -0.10
 	}
 	age = "age_4_reformation"
-
-	minimum_levy_size = 0.4
 }
 
 a_age_4_reformation_auxiliary = {
 	category = army_auxiliary
 	buildable = no
-	max_strength = 0.3
+	max_strength = 0.4
 	combat_power = 0.25
 
 	age = "age_4_reformation"
@@ -242,8 +226,6 @@ a_age_5_absolutism_infantry = {
 	max_strength = 1.6
 	combat_power = 2.25
 	age = "age_5_absolutism"
-
-	minimum_levy_size = 0.9
 }
 
 a_age_5_absolutism_cavalry = {
@@ -262,8 +244,6 @@ a_age_5_absolutism_cavalry = {
 		mountains = -0.10
 	}
 	age = "age_5_absolutism"
-
-	minimum_levy_size = 0.45
 }
 
 a_age_5_absolutism_auxiliary = {
@@ -292,8 +272,7 @@ a_age_6_revolutions_infantry = {
 	max_strength = 3.2
 	combat_power = 3
 	age = "age_6_revolutions"
-
-	minimum_levy_size = 1.0
+	
 }
 
 a_age_6_revolutions_cavalry = {
@@ -312,8 +291,6 @@ a_age_6_revolutions_cavalry = {
 		mountains = -0.10
 	}
 	age = "age_6_revolutions"
-
-	minimum_levy_size = 0.5
 }
 
 a_age_6_revolutions_auxiliary = {
